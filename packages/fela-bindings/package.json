@@ -1,6 +1,6 @@
 {
   "name": "layeshifter-fela-bindings",
-  "version": "10.2.8",
+  "version": "10.2.9",
   "description": "Abstract binding factories for Fela",
   "main": "lib/index.js",
   "module": "es/index.js",
