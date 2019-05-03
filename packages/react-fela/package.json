@@ -1,6 +1,6 @@
 {
   "name": "layeshifter-react-fela",
-  "version": "10.2.7",
+  "version": "10.2.8",
   "description": "React bindings for Fela",
   "typings": "index.d.ts",
   "main": "lib/index.js",
@@ -29,8 +29,8 @@
     "react": "^16.3.0"
   },
   "dependencies": {
-    "layeshifter-layeshifter-fela-bindings": "^10.2.6",
     "layeshifter-fela-dom": "^10.2.5",
+    "layeshifter-layeshifter-fela-bindings": "^10.2.6",
     "prop-types": "^15.5.8"
   },
   "gitHead": "e41ad19977d1c1d3895d6a9dfd8e1f1a99136672"
