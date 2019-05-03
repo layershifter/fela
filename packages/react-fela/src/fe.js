@@ -1,6 +1,6 @@
 /* @flow */
 import { createElement } from 'react'
-import { feFactory } from 'fela-bindings'
+import { feFactory } from 'layeshifter-fela-bindings'
 
 import FelaComponent from './FelaComponent'
 

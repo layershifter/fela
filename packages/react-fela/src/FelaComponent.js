@@ -1,6 +1,6 @@
 /* @flow */
 import { createElement } from 'react'
-import { FelaComponentFactory } from 'fela-bindings'
+import { FelaComponentFactory } from 'layeshifter-fela-bindings'
 
 import { RendererContext } from './context'
 import FelaTheme from './FelaTheme'

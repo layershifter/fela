@@ -1,6 +1,6 @@
 /* @flow */
 import { createElement, Children } from 'react'
-import { ThemeProviderFactory } from 'fela-bindings'
+import { ThemeProviderFactory } from 'layeshifter-fela-bindings'
 
 import { ThemeContext } from './context'
 
