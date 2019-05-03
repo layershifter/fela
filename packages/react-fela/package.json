@@ -1,5 +1,5 @@
 {
-  "name": "react-fela",
+  "name": "layeshifter-react-fela",
   "version": "10.2.4",
   "description": "React bindings for Fela",
   "typings": "index.d.ts",

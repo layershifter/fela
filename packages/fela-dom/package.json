@@ -1,5 +1,5 @@
 {
-  "name": "fela-dom",
+  "name": "layeshifter-fela-dom",
   "version": "10.2.4",
   "description": "Fela package for working with the DOM",
   "main": "lib/index.js",

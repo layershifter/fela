@@ -1,5 +1,5 @@
 {
-  "name": "fela-bindings",
+  "name": "layeshifter-fela-bindings",
   "version": "10.2.4",
   "description": "Abstract binding factories for Fela",
   "main": "lib/index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "fela",
+  "name": "layeshifter-fela",
   "version": "10.2.4",
   "description": "State-Driven Styling in JavaScript",
   "typings": "index.d.ts",
