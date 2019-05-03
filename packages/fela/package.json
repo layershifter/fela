@@ -1,6 +1,6 @@
 {
   "name": "layeshifter-fela",
-  "version": "10.2.9",
+  "version": "10.2.10",
   "description": "State-Driven Styling in JavaScript",
   "main": "lib/index.js",
   "module": "es/index.js",
