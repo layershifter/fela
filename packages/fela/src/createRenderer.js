@@ -38,6 +38,9 @@ import type {
 } from '../../../flowtypes/DOMRenderer'
 import type { FontProperties } from '../../../flowtypes/FontProperties'
 
+// use default value with document
+const defaultDocumentRef = { target: document, refCount: 1, refId: 0 }
+
 export default function createRenderer(
   config: DOMRendererConfig = {}
 ): DOMRenderer {
@@ -62,6 +65,7 @@ export default function createRenderer(
     uniqueRuleIdentifier: 0,
     uniqueKeyframeIdentifier: 0,
 
+    documents: [defaultDocumentRef],
     nodes: {},
     scoreIndex: {},
     // use a flat cache object with pure string references
@@ -175,6 +179,7 @@ export default function createRenderer(
     clear() {
       renderer.uniqueRuleIdentifier = 0
       renderer.uniqueKeyframeIdentifier = 0
+      renderer.documents = [defaultDocumentRef]
       renderer.cache = {}
 
       renderer._emitChange({
